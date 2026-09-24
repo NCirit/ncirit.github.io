@@ -50,6 +50,13 @@
   }
   .about p { margin: 0; color: var(--text); }
 
+  .exp { display: grid; gap: 2px; }
+  .exp .row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+  .exp .row:last-child { border-bottom: 0; }
+  .exp .who strong { font-weight: 600; }
+  .exp .who span { color: var(--muted); }
+  .exp .when { color: var(--muted); font-size: 14px; white-space: nowrap; flex: 0 0 auto; }
+
   .skills { display: flex; flex-wrap: wrap; gap: 8px; }
   .skills span {
     background: var(--panel); border: 1px solid var(--border);
@@ -106,6 +113,28 @@
   <section class="about">
     <h2>About</h2>
     <p>Software engineer and computer engineer specializing in high-performance embedded, client/server, and machine-vision systems. I build and optimize reliable software in C/C++ and Python, with hands-on experience increasing asynchronous I/O throughput, freeing CPU capacity for core algorithms, and integrating technologies across USB, FPGA, image sensors, and desktop applications. With additional expertise in debugging, system-level programming, computer vision, and AI, I bring a practical, performance-focused approach to complex engineering challenges.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="exp">
+      <div class="row">
+        <div class="who"><strong>Freelance Software Engineer</strong> <span>· Freelance / Self-Employed</span></div>
+        <div class="when">2021-11 to Present</div>
+      </div>
+      <div class="row">
+        <div class="who"><strong>Mid-Level Software Engineer</strong> <span>· Purple Gaze</span></div>
+        <div class="when">2022-01 to 2026-08</div>
+      </div>
+      <div class="row">
+        <div class="who"><strong>Internship Program</strong> <span>· TEI</span></div>
+        <div class="when">2021-02 to 2021-08</div>
+      </div>
+      <div class="row">
+        <div class="who"><strong>Embedded and Real-Time Software Design Intern</strong> <span>· ASELSAN</span></div>
+        <div class="when">2020-07 to 2020-08</div>
+      </div>
+    </div>
   </section>
 
   <section>
