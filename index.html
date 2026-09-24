@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1e1e1e">
+<title>Nurullah Cirit — Software Engineer</title>
+<meta name="description" content="Nurullah Cirit is a software and computer engineer working on high-performance embedded, client/server, and machine-vision systems. Creator of the Thumbpad Android app.">
+<link rel="icon" href="assets/thumbpad-icon.png">
+<style>
+  :root {
+    --bg: #1e1e1e;
+    --panel: #252526;
+    --panel-2: #2b2b2d;
+    --text: #f2f2f2;
+    --muted: #9aa0a6;
+    --border: #3a3a3c;
+    --accent: #2d7ff9;
+    --accent-hover: #4a92ff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); }
+  main { max-width: 760px; margin: 0 auto; padding: 72px 24px 96px; }
+
+  .intro h1 { font-size: 40px; line-height: 1.1; margin: 0 0 8px; }
+  .intro .role { font-size: 19px; color: var(--muted); margin: 0 0 6px; }
+  .intro .loc { font-size: 15px; color: var(--muted); margin: 0 0 24px; }
+
+  .contact { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 40px; }
+  .contact a {
+    display: inline-flex; align-items: center; gap: 8px;
+    text-decoration: none; color: var(--text);
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 8px; padding: 9px 14px; font-size: 15px;
+  }
+  .contact a:hover { border-color: var(--accent); }
+  .contact svg { width: 18px; height: 18px; fill: currentColor; }
+
+  h2 {
+    font-size: 14px; text-transform: uppercase; letter-spacing: .07em;
+    color: var(--muted); margin: 48px 0 16px;
+  }
+  .about p { margin: 0; color: var(--text); }
+
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skills span {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 6px; padding: 5px 11px; font-size: 14px; color: var(--muted);
+  }
+
+  .apps { display: grid; gap: 20px; }
+  .app-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .app-banner { display: block; width: 100%; aspect-ratio: 1024 / 500; object-fit: cover; }
+  .app-body { display: flex; align-items: center; gap: 16px; padding: 18px; flex-wrap: wrap; }
+  .app-icon {
+    width: 56px; height: 56px; border-radius: 13px; flex: 0 0 auto;
+    border: 1px solid var(--border); background: var(--panel-2);
+  }
+  .app-text { flex: 1 1 240px; min-width: 0; }
+  .app-text h3 { margin: 0 0 2px; font-size: 18px; }
+  .app-text .platform { margin: 0 0 4px; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  .app-text p { margin: 0; font-size: 14px; color: var(--muted); }
+  .app-cta { flex: 0 0 auto; }
+  .app-cta img { height: 52px; display: block; }
+
+  footer { color: var(--muted); font-size: 13px; margin-top: 64px; border-top: 1px solid var(--border); padding-top: 20px; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <section class="intro">
+    <h1>Nurullah Cirit</h1>
+    <p class="role">Software Engineer &amp; Computer Engineer</p>
+    <p class="loc">Tekirdağ, Türkiye</p>
+
+    <div class="contact">
+      <a href="https://github.com/NCirit" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.5 11.5 0 0 0-3.64 22.4c.58.1.79-.25.79-.56v-2.23c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.74-1.55-2.57-.3-5.27-1.29-5.27-5.69 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.47.11-3.06 0 0 .98-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.81 1.2 1.84 1.2 3.1 0 4.42-2.7 5.39-5.28 5.68.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/ncirit" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.3 7.9H1.7V22h3.6V7.9ZM3.5 2A2.1 2.1 0 1 0 3.5 6.2 2.1 2.1 0 0 0 3.5 2ZM22.3 13.9c0-4.25-2.27-6.23-5.3-6.23a4.57 4.57 0 0 0-4.15 2.28V7.9H9.24V22h3.61v-7c0-1.85.35-3.64 2.64-3.64 2.25 0 2.28 2.11 2.28 3.76V22h3.61l.92-8.1Z"/></svg>
+        LinkedIn
+      </a>
+      <a href="mailto:n.cirit.n@gmail.com">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13A1.5 1.5 0 0 1 20.5 20h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 5.6L19.8 6H4.2ZM20 7.6l-8 5.8-8-5.8V18h16V7.6Z"/></svg>
+        Email
+      </a>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About</h2>
+    <p>Software engineer and computer engineer specializing in high-performance embedded, client/server, and machine-vision systems. I build and optimize reliable software in C/C++ and Python, with hands-on experience increasing asynchronous I/O throughput, freeing CPU capacity for core algorithms, and integrating technologies across USB, FPGA, image sensors, and desktop applications. With additional expertise in debugging, system-level programming, computer vision, and AI, I bring a practical, performance-focused approach to complex engineering challenges.</p>
+  </section>
+
+  <section>
+    <h2>Core skills</h2>
+    <div class="skills">
+      <span>C</span><span>C++</span><span>C#</span><span>Python</span><span>Rust</span>
+      <span>Qt</span><span>.NET / WPF</span><span>Embedded Systems</span><span>System Programming</span>
+      <span>Performance Optimization</span><span>Asynchronous I/O</span><span>OpenCV</span>
+      <span>Machine Vision</span><span>libusb / USB Firmware</span><span>FPGA Integration</span>
+      <span>STM32</span><span>Docker</span><span>CMake</span><span>Machine Learning</span>
+      <span>TensorFlow</span><span>Computer Networks</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Apps</h2>
+    <div class="apps">
+      <article class="app-card">
+        <img class="app-banner" src="assets/thumbpad-feature.png" alt="Thumbpad feature graphic" loading="lazy" width="1024" height="500">
+        <div class="app-body">
+          <img class="app-icon" src="assets/thumbpad-icon.png" alt="Thumbpad app icon" width="56" height="56">
+          <div class="app-text">
+            <p class="platform">Android</p>
+            <h3>Thumbpad</h3>
+            <p>Use your Android phone as a trackpad, keyboard, and media remote for a Windows PC over your home Wi-Fi.</p>
+          </div>
+          <div class="app-cta">
+            <a href="https://play.google.com/store/apps/details?id=com.thumbpad.app" target="_blank" rel="noopener noreferrer" aria-label="Get Thumbpad on Google Play">
+              <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_us_badge_web_generic.png">
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    &copy; <span id="yr">2026</span> Nurullah Cirit ·
+    <a href="https://github.com/NCirit" target="_blank" rel="noopener noreferrer">github.com/NCirit</a>
+  </footer>
+</main>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
