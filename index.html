@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5SHNG170DP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5SHNG170DP');
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1e1e1e">
@@ -80,6 +89,7 @@
   .app-text h3 { margin: 0 0 2px; font-size: 18px; }
   .app-text .platform { margin: 0 0 4px; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
   .app-text p { margin: 0; font-size: 14px; color: var(--muted); }
+  .app-text p.companion { margin-top: 8px; }
   .app-cta { flex: 0 0 auto; }
   .app-cta img { height: 52px; display: block; }
 
@@ -160,10 +170,11 @@
             <p class="platform">Android</p>
             <h3>Thumbpad</h3>
             <p>Use your Android phone as a trackpad, keyboard, and media remote for a Windows PC over your home Wi-Fi.</p>
+            <p class="companion">Needs the free Windows app on your PC: <a href="https://ncirit.github.io/thumbpad-releases/">Download for Windows</a></p>
           </div>
           <div class="app-cta">
             <a href="https://play.google.com/store/apps/details?id=com.thumbpad.app" target="_blank" rel="noopener noreferrer" aria-label="Get Thumbpad on Google Play">
-              <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_us_badge_web_generic.png">
+              <img alt="Get it on Google Play" src="assets/google-play-badge.png">
             </a>
           </div>
         </div>
