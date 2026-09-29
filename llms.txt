@@ -1,0 +1,20 @@
+# Nurullah Cirit
+
+> Software and computer engineer based in Tekirdağ, Türkiye, working on embedded and USB firmware, machine vision, desktop and Android applications, and performance-critical C/C++ systems. Available for freelance work and as a technical partner for founders with software or hardware product ideas.
+
+## Pages
+
+- [Home](https://ncirit.github.io/): About, selected projects, experience, core skills, and apps.
+- [Technical partner](https://ncirit.github.io/technical-partner.html): Services for founders and idea owners: feasibility analysis, technical and implementation planning, team building, and technical leadership for software and hardware projects.
+
+## Selected projects
+
+- USB3 Vision Camera System: firmware and host-side software for a USB3 machine-vision camera built around the Cypress FX3 (GPIF II, DMA, USB3 Vision framing, libusb).
+- [Thumbpad](https://play.google.com/store/apps/details?id=com.thumbpad.app): Android app that turns a phone into a trackpad, keyboard, and media remote for a Windows PC over local Wi-Fi. [Windows companion app](https://ncirit.github.io/thumbpad-releases/).
+- ADB UDP Forwarding: modified ADB and adbd to support UDP port forwarding and reverse forwarding.
+
+## Contact
+
+- [Project inquiry form](https://docs.google.com/forms/d/e/1FAIpQLSfNlPyKhqETtGfOwYj7eQd18xjjTBhcqLEDRn7wKWIghRZwgA/viewform)
+- [GitHub](https://github.com/NCirit)
+- [LinkedIn](https://linkedin.com/in/ncirit)
